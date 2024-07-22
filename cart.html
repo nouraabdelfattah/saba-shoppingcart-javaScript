@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/all.css">
+    <link href="https://cdn.jsdelivr.XYZ/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav class="container-fluid header">
+          <div class="logo">
+            <a   href="index.html">Saba Store</a>
+          </div>
+          <div class="user-inform" id="user-info" >
+            <p class="user" id="user"></p>
+          </div>
+          <div class="cart" id="shopping">
+            <i class="fas fa-shopping-cart" ></i><span class="cart-span" style="position: absolute; top:15% ;  color: white;">cart</span>
+            <span class="badge"></span>
+            <div  class="cart-div">
+              <a href="cart.html">View All Products</a>
+              <div></div>
+            </div>
+          </div>
+          <div class="log">
+            <a  href="login.html" id="login_iqon">Login</a>
+            <a  href="register.html" id="register_iqon">Register</a>
+            <a href="login.html"  id="signout">Log Out</a>
+          </div>
+          
+        </nav>
+      
+      </header>
+   <div class="container cart-parent">
+    <div class="row" style=" width:auto; justify-content:space-evenly; margin:50px 0 0 0; " id="products_section">
+    
+     
+   </div>
+   <div id="total">Total-Price: </div>
+   <div class="container">
+    <h2 style="text-align: center; font-size: 25px; margin-bottom: 20px;">Favourites</h2>
+    <div class="row" style=" width:auto; justify-content: space-evenly; margin:50px 0 0 0; " id="favourites">
+
+     
+   </div>
+  
+   <script src="./js/user.js"></script>
+<script src="./js/Login.js"></script>
+<script src="./js/cart.js"></script>
+
+    <script src="https://cdn.jsdelivr.XYZ/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkinCare Brand</title>
+    <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/all.css">
+    <link href="https://cdn.jsdelivr.XYZ/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+  <nav class="container-fluid header">
+    <div class="logo">
+      <a   href="index.html">Saba Store</a>
+    </div>
+    <div class="user-inform" id="user-info" >
+      <p class="user" id="user"></p>
+    </div>
+    <div class="cart" id="shopping">
+      <i class="fas fa-shopping-cart" ></i><span class="cart-span" style="position: absolute; top:15% ;  color: white;">cart</span>
+      <span class="badge"></span>
+      <div  class="cart-div">
+        <a href="cart.html">View All Products</a>
+        <div></div>
+      </div>
+    </div>
+    <div class="log">
+      <a  href="login.html" id="login_iqon">Login</a>
+      <a  href="register.html" id="register_iqon">Register</a>
+      <a href="login.html"  id="signout">Log Out</a>
+    </div>
+    
+  </nav>
+
+</header>
+
+<!-- /////////////////////////////////////////// -->
+ <div class="container" >
+     <div class=" search">
+     <input  type="search" placeholder="Search by name or category"  id="search">
+ </div>
+ <div class="container">
+     <div class="row" style=" width: 80%; justify-content: space-between; margin: auto; " id="products_section">
+        <div class="card mt-3 col-md-3 col-sm-12 card-parent" style=" padding: 5px;" id="card">
+            <img class="card-img-top" src="./img/4e9788cf10dda541f3a6eb4bc75734e9.jpg" alt="Card image" style="height: 300px; width: 100%;">
+            <div class="card-body">
+              <h4 class="card-title">Product: CRO collection</h4>
+              <p class="card-p1">Price: 50$</p>
+              <p class="card-p1">Category: Haircare products</p>
+              <button class="btn" id="card_btn">Add to cart</button><a href="#" id="heart"><i class="far fa-heart"></i></a>
+            </div>
+          </div>
+     </div>
+ </div>
+</div>
+<script src="./js/user.js"></script>
+<script src="./js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.XYZ/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
